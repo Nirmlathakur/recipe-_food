@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+header{
+    margin-bottom: 60px;
+}
+#container{
+    width: 600px;
+}
+#cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+.cards{
+    background-color: antiquewhite;
+    border-radius: 50px;
+    box-shadow: 0, 0, 10px, 2px black;
+    width: 170px;
+    padding: 3%
+    
+    
+
+}
+/* .cards > h2 , p{
+    
+} */
+
+i {
+    height: 70px;
+    width: 70px;
+}
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/02/92/20/37/360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
